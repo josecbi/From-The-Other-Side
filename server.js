@@ -5,7 +5,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { db } from './data/db.js'
 
-const PORT = 8000
+const PORT = process.env.PORT || 8000
 
 const app = express()
 
@@ -24,5 +24,5 @@ app.use(express.json())
 app.use('/api', apiRouter)
 
 app.listen(PORT, () => {
-    console.log(`Server listening on: http://localhost:${PORT}`)
+    console.log(`Server listening on: ${PORT}`)
 })
