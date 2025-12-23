@@ -1,0 +1,23 @@
+{
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.2.1",
+        "sqlite": "^5.1.1",
+        "sqlite3": "^5.1.7",
+        "uuid": "^13.0.0"
+    },
+    "type": "module",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "name": "from-the-other-side-whit-express",
+    "version": "1.0.0",
+    "description": "Making From the other side exercice whit express",
+    "main": "server.js",
+    "author": "Jose",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.11"
+    }
+}
