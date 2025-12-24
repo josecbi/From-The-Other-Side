@@ -3,5 +3,4 @@ node_modules/
 checkData.js
 createTableSightings.js
 data.json
-database.db
 populateData.js
